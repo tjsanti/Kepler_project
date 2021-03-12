@@ -15,10 +15,12 @@ Lucky enough, the dataset is fairly tidy already. There are quite a few columns 
 
 I began with a simple baseline model using `sklearn`'s `KneighborsClassifier`. I then explored some other simple models such as `Logistic Regression`, as well as ensembling techniques like bagging. Next I tried out some more robust models such as `RandomForestClassifier` in a random hyperparamater search.
 
-Finally, I used the best estimator output from the `RandomizedSearchCV` to explore more model structures. The model that I ended up choosing to be my final model used this best estimator as a meta-learner in a `StackingClassifier`. 
+Finally, I used the best estimator output from the `RandomizedSearchCV` to explore more model structures. The model that I ended up choosing to be my final model used this best estimator as a meta-learner in a `StackingClassifier`. Here is what one final model architecture could look like:
+
+![Model Pipeline example](Model_architecture_example.png)
 
 ### Results
 
-The final model mentioned above achieved an accuracy of about 86% and a log-loss around 0.32. I do no think this result is the ground for replacing scientists at NASA, but I am happy with the performance. You can access and run my code here:
+The final model mentioned above achieved an accuracy of about 86% and a log-loss around 0.32. I do no think this result is the ground for replacing scientists at NASA, but I am happy with the performance. You can access and run my code here: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/trevor-santiago/Kepler_project/)
 
 Note that due to the randomness throughout the notebook and modelling process, the results you see from running it may vary from those I mention.
