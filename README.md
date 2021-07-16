@@ -21,6 +21,6 @@ Finally, I used the best estimator output from the `RandomizedSearchCV` to explo
 
 ### Results
 
-The final model mentioned above achieved an accuracy of about 86% and a log-loss around 0.32. I do not think this result is the grounds for replacing scientists at NASA, but I am happy with the performance. You can access and run my code here: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/trevor-santiago/Kepler_project/)
+The final model mentioned above achieved an accuracy of about 86% and a log-loss around 0.32. I do not think this result is the grounds for replacing scientists at NASA, but I am happy with the performance. You can access and run my code here: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tjsanti/Kepler_project/)
 
 Note that due to the randomness throughout the notebook and modelling process, the results you see from running it may vary from those I mention.
